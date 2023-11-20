@@ -128,6 +128,4 @@ module.exports = app => {
 
   pcv1Router.get('/config', controller.pc.v1.config.configRead);
   // router.get('/*', controller.home.index);
-
-
 };

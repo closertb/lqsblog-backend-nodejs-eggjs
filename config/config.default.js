@@ -13,7 +13,7 @@ module.exports = appInfo => {
   const config = exports = {};
 
   // use for cookie sign key, should change to your own and keep security
-  config.keys = appInfo.name + '_http://liqingsong.cc';
+  config.keys = appInfo.name + '_http://closertb.site';
 
   // cluster
   config.cluster = {
@@ -31,8 +31,8 @@ module.exports = appInfo => {
     port: '3306',
     database: 'lqsblog',
     tablePre: 'lqs_',
-    username: '',
-    password: '',
+    username: 'server',
+    password: 'Dom.0909',
     timezone: '+08:00', // 东八时区
     define: {
       freezeTableName: false, // 当未提供表名时: false, 自动将模型名复数并将其用作表名 |  true,所有表将使用与模型名称相同的名称
